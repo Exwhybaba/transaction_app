@@ -1,0 +1,81 @@
+body {
+    background-color: #0B0D2B;
+    color: #FFFFFF;
+}
+
+.card {
+    background-color: #161A42;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.text-accent {
+    color: #6C7BFF;
+}
+
+.text-success {
+    color: #00D47C;
+}
+
+.text-danger {
+    color: #F55050;
+}
+
+.custom-card-height {
+    height: 300px;
+}
+
+.custom2-card-height{
+    height: 250px;
+}
+
+.pivot_table-card-height{
+    height: 510px;
+}
+
+/* Target the medium-dropdown control itself */
+#medium-filter .Select-control {
+  background-color: #161A42 !important;
+  color: white        !important;
+}
+/* The outer menu container */
+#medium-filter .Select-menu-outer {
+  background-color: #161A42 !important;
+  color: white        !important;
+}
+/* Each option in the list */
+#medium-filter .Select-option {
+  background-color: #161A42 !important;
+  color: white        !important;
+}
+/* Hover state for options */
+#medium-filter .Select-option.is-focused {
+  background-color: #2E335A !important;
+  color: white              !important;
+}
+/* Placeholder text */
+#medium-filter .Select-placeholder {
+  color: white !important;
+}
+
+/* Custom style for transaction link */
+a.transaction-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+a.transaction-link:hover {
+    color: cyan;
+    text-shadow: 0 0 8px cyan;
+    transform: scale(1.05);
+}
+
+a.transaction-link:active {
+    color: cyan;
+    transform: scale(0.95);
+    text-shadow: 0 0 12px cyan;
+}
+
