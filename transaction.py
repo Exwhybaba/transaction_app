@@ -219,7 +219,7 @@ def create_trans_dashboard(server):
                                     html.I(className="fas fa-chart-pie me-2"),
                                     "Transaction Dashboard"
                                 ],
-                                className="text-white fw-bold ms-4 mt-1"
+                                className="text-white fw-bold ms-4 mt-1", style = {"font-size":"22px"}
                             ),
                         ],
                         width=3,
